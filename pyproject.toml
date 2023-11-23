@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "baum-storage-task"
+version = "0.1.0"
+description = ""
+authors = ["A-V-tor <avtorca4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "baum_storage_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+kafka-python = "^2.0.2"
+python-multipart = "^0.0.6"
+aiokafka = "^0.8.1"
+aiofiles = "^23.2.1"
+asyncpg = "^0.29.0"
+black = "^23.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
